@@ -1,6 +1,13 @@
 .navbar {
-  background-color: var(--primary-color);
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.nuevo-nav {
+    background-color: var(--primary-color);
+    position: relative;
+    z-index: 1;
+    width: 100%;
 }
